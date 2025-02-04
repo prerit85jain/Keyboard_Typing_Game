@@ -1,22 +1,59 @@
-body{
+/* style.css */
+body {
     text-align: center;
     background-color: antiquewhite;
 }
-.para{
+.para {
     font-size: 40px;
     padding: 10px;
 }
-.content{
+.content {
     display: inline-block;
     margin: 5% 10%;
 }
-.keyboard{
+.keyboard {
     display: inline-block;
     background-color: aliceblue;
     padding: 10%;
 }
-.line1 button, .line2 button, .line3 button, .line4 button{
-    size: 50px;
+.line1 button, .line2 button, .line3 button, .line4 button {
+    width: 50px;
+    height: 50px;
     font-size: large;
+    margin: 5px;
     justify-content: space-between;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.space {
+    width: 250px;
+}
+#submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #45a049;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: black;
+    vertical-align: bottom;
 }
