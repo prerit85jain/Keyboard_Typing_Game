@@ -14,7 +14,8 @@ body {
 .keyboard {
     display: inline-block;
     background-color: aliceblue;
-    padding: 10%;
+    /* padding: 10%; */
+    margin-top: 10%;
 }
 .line1 button, .line2 button, .line3 button, .line4 button {
     width: 50px;
@@ -36,7 +37,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
