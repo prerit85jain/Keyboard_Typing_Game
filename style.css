@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.para{
+    font-size: 40px;
+    padding: 10px;
+}
+.content{
+    display: inline-block;
+    margin: 5% 10%;
+}
+.keyboard{
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10%;
+}
+.line1 button, .line2 button, .line3 button, .line4 button{
+    size: 50px;
+    font-size: large;
+    justify-content: space-between;
+}
